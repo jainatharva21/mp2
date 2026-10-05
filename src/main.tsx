@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import {PokemonProvider} from './PokemonContext'
 import App from './App'
+import 'normalize.css'
 import './index.css'
 
 createRoot(document.getElementById('root')!).render(
