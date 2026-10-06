@@ -2,7 +2,7 @@ import { NavLink, Route, Routes } from 'react-router-dom';
 import { usePokemon } from './PokemonContext';
 import ListView from './views/ListView';
 import GalleryView from './views/GalleryView';
-const DetailView = () => <p>Detail view</p>;
+import DetailView from './views/DetailView';
 
 export default function App() {
   const { loading, error } = usePokemon();
