@@ -1,9 +1,7 @@
 import { NavLink, Route, Routes } from 'react-router-dom';
 import { usePokemon } from './PokemonContext';
 import ListView from './views/ListView';
-
-
-const GalleryView = () => <p>Gallery view</p>;
+import GalleryView from './views/GalleryView';
 const DetailView = () => <p>Detail view</p>;
 
 export default function App() {
